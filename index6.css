@@ -1,0 +1,46 @@
+/*TO get new fonts search for GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Playwrite+HU:wght@100..400&family=Silkscreen:wght@400;700&display=swap'); 
+.Para
+{
+   text-align: center;
+}
+a
+{
+    text-decoration:line-through;
+    text-decoration-color: black;
+    text-decoration-style:dotted;
+    cursor: pointer;
+}
+h1
+{
+    text-transform:lowercase;
+}
+.para
+{
+    text-indent: 1rem;
+    line-height: 1.5rem;
+}
+.text
+{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color:transparent;
+    text-shadow:2px 2px 5px red, 8px 8px 1px blue;
+    
+}
+.text2
+{
+
+    font-family: "Silkscreen", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.text3
+{
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Playwrite CU", cursive;
+
+}

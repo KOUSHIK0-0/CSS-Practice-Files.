@@ -1,0 +1,68 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+p
+{
+    color: rgb(97, 0, 83);
+    font-weight: bolder;
+    
+}
+img
+{
+    width: 200px;
+}
+.frst
+{
+    color:blue;
+}
+.scd
+{
+    color: red;
+}
+.tird
+{
+    color: violet;
+}
+a
+{
+    width: 300px;
+    display: inline-block;
+}
+.navbar>ul
+{
+    text-align: end;
+    padding: 20px;
+    background-color: black;
+    color:aliceblue;
+}
+li
+{
+    display:inline;
+    padding: 20px;
+}
+li:hover{
+    color:violet;
+    cursor:pointer;
+}
+.prac>p
+{
+    display: inline;
+    padding: 20px;
+}
+.nav>ul
+{
+    background-color: black;
+    color:white;
+    padding:20px;
+    text-align: end;
+}
+.nav>ul>li
+{
+    cursor: pointer;
+}
+.nav>ul>li:hover{
+    color:red;
+}

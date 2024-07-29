@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    gap: 10px;
+    /*justify-content:space-around;*/ /*eually distributing the space of the container*/
+    /*justify-content: space-between;*/ /*equally distributed in between the contents , no on the corners*/
+    /*justify-content: flex-start; make the elements stacks on the starting position, by default it is flex start */
+    /*justify-content: flex-end;*/ /*make the elements stacks on the last position*/
+    /*justify-content: center; make the elements stacked at the center */
+    justify-content:center;
+    /*align-items: center;*/ /* align items in center by vertical order */
+    /*align-items: flex-start; align the items in start by vertical order */
+    /*align-items: flex-end; align the items in end by vertical order */
+    align-items: center;
+
+}
+.box
+{
+    width: 100px;
+    border: 1px solid green;
+}
+
+#box-1
+{
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+#box-3
+{
+    flex-grow: 2;
+    flex-shrink: 3;
+}

@@ -1,0 +1,76 @@
+body
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+.secondary-btn:hover
+{
+    color: red;
+    background-color: black;
+}
+.secondary-btn:visited
+{
+    color: green;
+}
+.secondary-btn:active
+{
+    color: purple;
+    background-color: white;
+    border: 2px solid green;
+}
+.primary-btn:link
+{
+    color: red;
+}
+/*an + b*/ 
+/*index starts from 1 , but the number in "n" starts from 0 , so ( 2 * 0 ) = 0, 0 index element is absent */  
+ul li:nth-child(2n)
+{
+    background-color: red;
+}
+h1::first-letter
+{
+    color: purple;
+    font-size: 3rem;
+}
+p::first-line
+{
+    color: yellow;
+    background: black;
+}
+::selection
+{
+    color: red;
+    background-color: black;
+}
+::grammar-error
+{
+    color: green;
+    background-color: black;
+}
+h2::before
+{
+    content: '%%%';
+    background-color: black;
+    color: red;
+}
+h2::after{
+    content: '***';
+    background-color: black;
+    color: yellowgreen;
+}
+.class1::after
+{
+    content: '*';
+    color: red;
+}
+.required::after
+{
+    content: 'Important';
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+    font-size: 0.5rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}

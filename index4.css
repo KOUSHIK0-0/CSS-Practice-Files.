@@ -1,0 +1,16 @@
+body
+{
+    background-color: black;
+    color:white;
+}
+main
+{
+    border: 5px solid green;
+    border-radius: 10px;
+}
+section
+{
+    border: 5px dashed blue;
+    border-radius: 10px;
+    width: 50vw;
+}

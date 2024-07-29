@@ -1,0 +1,57 @@
+body
+{
+    box-sizing: border-box;
+    height: 1800px;
+}
+.header
+{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(20, 121, 161);
+}
+.parabox
+{
+    width: 350px;
+    height: 1700px;
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+    left: 35%;
+}
+.parabox>p
+{
+    padding: 20px;
+}
+.side-bar-container
+{
+    width: 100%;
+    height: 1250px;
+    position: absolute;
+    top: 0;
+}
+.side-bar
+{
+    width: 250px;
+    height: 500px;
+    position: sticky;
+    background-color: pink;
+    float: right;
+    top: 50px;
+}
+.contact
+{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    bottom: 30px;
+    right: 60px;
+}
+.footer
+{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(2, 49, 107);
+}

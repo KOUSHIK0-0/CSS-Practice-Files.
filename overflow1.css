@@ -1,0 +1,30 @@
+.container
+{
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+}
+.box1
+{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    border: 1px solid black;
+    float:left;
+}
+.box2
+{
+    height: 100px;
+    width: 100px;
+    background-color:yellow;
+    border: 1px solid black;
+    float: left;
+}
+.box3
+{
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    border: 1px solid black;
+    float:left;
+}

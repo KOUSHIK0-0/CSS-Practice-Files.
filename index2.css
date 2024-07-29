@@ -1,0 +1,26 @@
+body
+{
+    background-color: black;
+    color:white;
+}
+#first, #second
+{
+    color:red;
+}
+.purple
+{
+    color:purple;
+    font-family: monospace;
+}
+.highlight
+{
+    font-weight: bolder;
+}
+article>h2
+{
+    color:blue;
+}
+.h2-styling
+{
+    color: orange;
+}
